@@ -1,0 +1,3 @@
+# Scheduled run every day at 02:00 (crontab -e as the user that owns the repo).
+# --scheduled: no questions; stops at the first warning or error, so nothing unchecked reaches the database.
+0 2 * * * cd /root/dhms/dhms-nsv-pipeline && .venv/bin/python run.py --scheduled >> logs/cron.log 2>&1

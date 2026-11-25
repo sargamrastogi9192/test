@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Data and outputs (never commit project data)
+*.parquet
+*.csv
+*.xlsx
+!docs/*.xlsx
+New_Structure_Output/
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

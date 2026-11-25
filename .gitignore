@@ -1,0 +1,25 @@
+# settings with the database password
+.env
+# run output / scratch
+logs/
+input_data/
+output_data/
+bronze/data/
+bronze/logs/
+test_data/
+*.parquet
+~$*.xlsx
+NSV_Activity_Tracker*.xls*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+# editors
+.vscode/
+.idea/
+.DS_Store
+reports/
+push_gold/dry_run_output/
